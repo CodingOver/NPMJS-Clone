@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+/* Setting Of the Page*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    overflow-x: hidden;
+}
+/* End Setting*/
+/* Start Header */
+.header{
+    background: #231f20;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.header a{
+    color: #fff;
+    margin: 20px;
+}
+/* End Header */
+/* This is a style for gradienet horizontal rule*/
+.main-container .oh{
+    height: 11px;
+    background-image: linear-gradient(to right , #fd650a , #ca2721, #d627ba);
+}
+/* End Styling for gradienet horizontal rule*/
+
+/* Start Navbar */
+.navbar-container{
+    display: flex;
+    margin: 20px;
+}
+.navbar-container .logo-para{
+    display: flex;
+}
+.navbar-container .logo-para p{
+    margin-left: 10px;
+    font-weight: 400;
+    width: 210px;
+
+}
+.navbar-container .nav ul{
+    list-style: none;
+    display: flex;
+    margin-left: 700px;
+    font-weight: 600;
+    font-size: 15px;
+    
+}
+.navbar-container .nav ul li{
+    padding: 0 10px;
+}
+
+.navbar-container .logo-para p:hover,
+.navbar-container .logo-para i:hover,
+.navbar-container .nav ul li:hover{
+    color: #CCC;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.hr-horizontal{
+    border: 1px solid rgb(228, 225, 225);
+    opacity: 0.3;
+}
+/* End NavBar */
+/* Start Search Bar & logo & sign up and sign in */
+.seconde-bar{
+    padding: 30px;
+    display: flex;
+}
+.seconde-bar .logo-npm {
+    width: 70px;
+    position: relative;
+    top: 13px;
+}
+.seconde-bar .search .search-input{
+    width: 900px;
+    height: 50px;
+    margin-left: 30px;
+    padding: 25px;
+    font-size: 15px;
+    background: #f2f2f2;
+    border: none;
+}
+.seconde-bar .search .search-btn{
+    background: #231f20;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    position: relative;
+    left: -5px;
+}
+.seconde-bar .sign-btn .sign-up{
+    background: transparent;
+    border: 1px solid #DDD;
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.seconde-bar .sign-btn .sign-up:hover{
+    color: rgb(218, 216, 216);
+    border: 1px solid rgb(218, 216, 216);
+    transition: 0.4s;
+}
+.seconde-bar .sign-btn .sign-in{
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.seconde-bar .sign-btn .sign-in:hover{
+    color: rgb(218, 216, 216);
+    transition: 0.4s;
+}
+/* End Search Bar & logo & sign up and sign in */
+ 
+/* Start Offer build amzaing thins*/
+.offer-amazing-thing{
+        background-image: url('https://static.npmjs.com/attachments/ck3uwvv67mydydr74ea00ip4j-bg-stripes.png');
+        background-repeat: no-repeat;
+        height: 1000px;
+        color: #fff;
+        text-align: center;
+}
+.offer-amazing-thing .text h1 {
+    font-size: 90px;
+    padding-top: 100px;
+}
+.offer-amazing-thing .text h2 {
+    font-size: 90px;
+    padding-bottom: 40px;
+}
+.offer-amazing-thing .text p {
+    margin-left: 420px;
+    width: 500px;
+    padding: 20px;
+}
+.offer-amazing-thing .text h3 {
+    font-size: 40px;
+    width: 450px;
+    margin-left: 450px;
+}
+.btn-offer .sign-up-for-free {
+    width: 230px;
+    height: 60px;
+    background:  #c12127;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    border: none;
+    border-bottom: 5px solid #fba531;
+    margin: 30px;
+    box-shadow: 0px 0px 20px #534848 ;
+    cursor: pointer;
+}
+.btn-offer .learn-about-pro{
+    width: 230px;
+    height: 60px;
+    background:  #e81aa8;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    border: none;
+    border-bottom: 5px solid #b30ad2;
+    box-shadow: 0px 0px 20px #534848 ;
+    cursor: pointer;
+}
+/* End Offer */
+/* Start main content*/
+.main-content{
+    margin-top: 140px; 
+    color: #333;
+}
+.main-content .header-main h2{
+    font-size: 40px;
+    width: 500px;
+    margin-left: 32%;
+    padding: 30px 0 10px 0;
+}
+.main-content .header-main p{
+    width: 600px;
+    margin-left: 28%;
+    padding: 30px;
+    margin-top: -10px;
+    line-height: 25px;
+}
+    /* Start flex planinng*/
+.flex-planning{
+    padding: 30px;
+    margin-top: 50px;
+    display: flex;
+    margin-left: 15%;
+}
+.flex-planning img{
+    padding: 10px;
+}
+.flex-planning h3{
+    padding: 10px;
+}
+.flex-planning p{
+    line-height: 20px;
+    font-size: 14px;
+    text-align: left;
+    width: 200px;
+}
+.flex-planning a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    position: relative;
+    top: 40px;
+    left: -10px;
+    padding: 10px 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.flex-planning div:first-child{
+    margin-right: 50px;
+}
+.flex-planning div:nth-child(2){
+    margin-right: 50px;
+}
+.flex-planning div:nth-child(3){
+    margin-right: 50px;
+}
+
+    /* End flex planing */
+/* End main content*/
+
+/* Start Banner */
+.banner{
+    margin-top: 110px;
+    background-image: url('https://static.npmjs.com/attachments/ck3uwg3a8731988744oecrjxu-weloveopensource-bg-800-2x.png');
+    height: 300px;
+    color: #fff;
+}
+.banner h2{
+    font-size: 50px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.banner p{
+    width: 500px;
+    position: relative;
+    left: 32%;
+}
+/* End Banner *
+/* Start Company Services */
+.service h2{
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 40px;
+    font-size:40px;
+    width: 500px;
+    margin-left: 31%;
+    letter-spacing: 2px;
+}
+.service img{
+    margin-top: 20px;
+    margin-bottom: 90px;
+    width: 500px;
+}
+hr{
+    background: #ddd;
+    margin-bottom: 60px;
+}
+/* End Company Services */
+/* Start Footer */
+    footer .logo-footer svg{
+        width: 50px;
+        position: relative;
+        left: -600px;
+    }
+    footer .list-footer{
+        display: flex;
+        position: relative;
+        left: 15%;
+        top: -50px;
+      
+        
+    }
+    footer .list-footer ul {
+        list-style: none;
+    }
+    footer .list-footer ul li {
+        margin-right: 200px;
+        line-height: 40px;
+        text-align: left;
+        font-size: 19px;
+        cursor: pointer;
+    }
+    ul li.main-list{
+        font-weight: bolder;
+       
+    }
+/* End Footer */
+/* graduint div */
+
+.main-container .oh{
+    height: 11px;
+    background-image: linear-gradient(to right , #fd650a , #ca2721, #d627ba);
+}
+
+/* Small Devices (Landscape phones, 767px and up)*/
+@media (max-width: 767px){
+    /* header*/
+    .navbar-container{
+        padding: 20px;
+    }
+    .navbar-container .logo-para p{
+        width: 205px;
+        position: relative;
+        left: 35%; 
+        top: -20px;       
+    }
+    .navbar-container .logo-para i{
+        position: relative;
+        left: 35%; 
+        top: -20px;       
+    }
+    .navbar-container .nav ul{
+        position: relative;
+        left: -900px;
+        top: 25px;
+        display: flex;
+        flex-direction: row;
+    }
+    /*Search Bar*/
+    .seconde-bar .search .search-input{
+        width: 200px;
+    }
+    .seconde-bar .search .search-btn{
+        position: relative;
+        left: 230px;
+        bottom: 50px;
+    }
+    
+    .seconde-bar .sign-btn .sign-up{
+        position: relative;
+        top: 80px;
+        right: 200px;
+    }
+    .seconde-bar .sign-btn .sign-in{
+        position: relative;
+        top: 45px;
+        right: 80px;
+    }
+     
+}   
